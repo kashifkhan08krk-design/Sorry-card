@@ -1,0 +1,101 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>I'm Sorry ❤️</title>
+
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  display: grid;
+  place-items: center;
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background: linear-gradient(135deg, #ffb6d5, #ffe5ec);
+  color: #a51d53;
+  padding: 18px;
+}
+
+.card {
+  background: #ffffffed;
+  border-radius: 28px;
+  padding: 30px 20px;
+  max-width: 370px;
+  width: 100%;
+  box-shadow: 0 12px 35px #b82b6540;
+}
+
+.heart {
+  font-size: 65px;
+  animation: beat 1s infinite;
+}
+
+@keyframes beat {
+  50% {
+    transform: scale(1.15);
+  }
+}
+
+h1 {
+  font-size: 30px;
+}
+
+p {
+  line-height: 1.7;
+  font-size: 17px;
+}
+
+button {
+  border: 0;
+  border-radius: 25px;
+  padding: 13px 18px;
+  margin: 7px;
+  background: #ed4383;
+  color: white;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+#msg {
+  font-weight: bold;
+  margin-top: 18px;
+  line-height: 1.7;
+}
+</style>
+</head>
+
+<body>
+<div class="card">
+
+  <div class="heart">💗</div>
+
+  <h1>I'm Sorry, Meri Jaan 🥺</h1>
+
+  <p>I know I may have hurt you, and I'm truly sorry.</p>
+
+  <p>You are very special to me. I never want you to feel unloved. ❤️</p>
+
+  <h3>Will you forgive me? 🥹💗</h3>
+
+  <button onclick="document.getElementById('msg').innerHTML='Sorry so much mera bachaw ❤️ I lovee uhh 💗😚 You mean so much to me! 💕'">
+    Yes, I forgive you 💖
+  </button>
+
+  <button onclick="document.getElementById('msg').innerHTML='Sorry so much mera bachaw ❤️ I lovee uhh 💗😚 You mean so much to me! 💕'">
+    Not yet 🥺
+  </button>
+
+  <div id="msg"></div>
+
+  <p>Made with love ❤️</p>
+
+</div>
+</body>
+</html>
